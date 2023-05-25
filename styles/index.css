@@ -1,3 +1,67 @@
-h1 {
-    color: red;
+body {
+    background-color: rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(227, 114, 34);
+}
+
+header {
+    background-color: rgb(167, 25, 48);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.nav-ul {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.nav-li {
+    list-style: none;
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.nav-a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    padding-top: 100px;
+}
+
+#about {
+    padding-top: 100px;
 }

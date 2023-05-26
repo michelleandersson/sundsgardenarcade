@@ -23,38 +23,51 @@
     </header>
     <main>
         <section id="home">
-            <h1>Welcome to Sundsgårdens Arcade</h1>
+            <h1 class="section-title">Welcome to Sundsgårdens Arcade</h1>
         </section>
         <section id="about">
-            <h2>The Why</h2>
-            <p>Each year, the participants in Sundgården Folkhögskola's IT courses finish off the course
+            <h2 class="section-title">The Why</h2>
+            <p class="section-txt">Each year, the participants in Sundgården Folkhögskola's IT courses finish off the
+                course
                 by creating a game from scratch in React. Unfortunately, since these games only live in the
                 participants' local repositories, no one ever gets to play these games. We want to change that!
             </p>
-            <p>Now all the participants who want to may choose to show off their game on this website! Below you
+            <p class="section-txt">Now all the participants who want to may choose to show off their game on this
+                website! Below you
                 will find the games made by the different groups of participants throughout different years of
                 studies at Sundsgården Folkhögskola.
             </p>
         </section>
         <section>
-            <h3>Want to play a game?</h3>
-            <p>Simple! Just scroll through the games below until you find one that you are interested in.
+            <h3 class="section-title">Want to play a game?</h3>
+            <p class="section-txt">Simple! Just scroll through the games below until you find one that you are
+                interested in.
                 Click on the image of the game and you will be take to the game's website where you can play!
             </p>
         </section>
         <section id="games">
-            <h2>Games</h2>
+            <h2 class="section-title">Games</h2>
             <div>
-                <h3>VT 23</h3>
-                <div class="gameCard">
-                    <a href="#" target="_blank">
-                        <img src="images/doodleDuck.jpg" alt="image of game">
-                    </a>
-                    <h4>Game Name</h4>
-                    <h5>Created by: XX, YY, and ZZ</h5>
-                    <h5>Genre: Turn-based</h5>
-                    <p>A game where you defeat Pokemon in a turne-based game</p>
+                <h3 class="section-title">VT 23</h3>
+                <div class="game-card overflow">
+                    <div class="game-card-info">
+                        <h4 class="game-txt-color">Game Name</h4>
+                        <h5 class="game-txt-color">Created by: XX, YY, and ZZ</h5>
+                        <h5 class="game-txt-color">Genre: Turn-based</h5>
+                        <p class="game-txt-color">A game where you defeat Pokemon in a turne-based game</p>
+                    </div>
+                    <div class="game-card-hover-container">
+                        <div class="game-card-hover__text">
+                            <a class="game-card__item-link" href="#" target="_blank" title="Click to play this game!">
+                                Click to play this game!
+                            </a>
+                        </div>
+                        <img class="game-card-img" src="images/doodleDuck.jpg" alt="Screenshot of game">
+                    </div>
+
                 </div>
+
+
             </div>
         </section>
     </main>

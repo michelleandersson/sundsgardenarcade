@@ -58,10 +58,14 @@ nav {
     text-decoration: underline;
 }
 
+
 #home {
-    padding-top: 100px;
+    border-top: 100px solid transparent;
+    margin-top: -100px;
 }
 
-#about {
-    padding-top: 100px;
+#about,
+#games {
+    border-top: 60px solid transparent;
+    margin-top: -60px;
 }

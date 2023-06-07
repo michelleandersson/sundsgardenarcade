@@ -96,6 +96,9 @@ section {
     border: 2px solid rgb(227, 114, 34);
     border-radius: 5px;
     background-color: rgb(110 108 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 

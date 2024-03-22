@@ -73,6 +73,11 @@ section {
     padding-bottom: 30px;
 }
 
+.divider {
+    border-bottom: 2px solid gray;
+    padding-bottom: 30px;
+}
+
 
 #home {
     border-top: 100px solid transparent;
